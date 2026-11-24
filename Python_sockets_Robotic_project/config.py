@@ -1,6 +1,6 @@
 # config.py
 #When client&server are runing in the same computer SERVER_IP = "127.0.0.1" else SERVER_IP = "192.168.1.5"
-SERVER_IP = "127.0.0.1"
+SERVER_IP = "192.168.1.5"
 SERVER_PORT = 5000
 SERVER_CONNECT_TIMEOUT = 5.0
 MOTION_RESPONSE_TIMEOUT = 60.0

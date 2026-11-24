@@ -1,0 +1,30 @@
+sequence_name: custom
+steps:
+  - name: init
+    motion: moveJ
+    joints_deg: [-60, -65, -100, 170, -60, 0]
+    acceleration: 1.2
+    velocity: 0.10
+    time: 3.0
+    blend: 0.0
+  
+  - name: initial_pose
+    motion: moveJ
+    joints_deg: [0, -90, 90, -90, -90, 0]
+    acceleration: 0.5
+    velocity: 0.1
+  
+  - name: greeting_pose
+    motion: moveL
+    target_xyz_mm: [-300, -300, 300]
+    target_rpy_deg: [90, 0, 0]
+    acceleration: 0.5
+    velocity: 0.1
+  
+  - name: init
+    motion: moveJ
+    joints_deg: [-60, -65, -100, 170, -60, 0]
+    acceleration: 1.2
+    velocity: 0.10
+    time: 3.0
+    blend: 0.0
